@@ -1,0 +1,37 @@
+<html
+<head>
+<title>Mouse Over Mouse On</title>
+<script>
+function onMouseOver(x)
+{
+x.style.color="blue";
+//x.style.backgroundColor="blue";
+
+}
+function onMouseOut(y){
+y.style.color="green";
+//y.style.backgroundColor="green";
+y.innerHTML ="Changed";
+}
+
+function onMouseDown(y)
+{
+alert(y);
+}
+
+function onmouseup(y)
+{
+alert(y+y);
+}
+
+</script>
+</head>
+<body>
+<marquee onmouseover="stop()" onmouseout="start()">This is spartan</marquee>
+
+<p onmouseover="onMouseOver(this)" onmouseout="onMouseOut(this)" onmousedown="onMouseDown(this)" onmouseup="onMouseUp" >This is not spartan</p>
+
+
+</body>
+
+</html>
