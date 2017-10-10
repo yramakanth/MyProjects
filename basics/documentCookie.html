@@ -1,0 +1,29 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<head>
+
+<title>The cookies are </title>
+<script>
+window.onload = function(){
+
+var allCookies=document.cookie;
+
+alert("all cookies before "+allCookies);
+document.cookie="userName=name;expires=loc;expires=11";
+
+var afterCookie=document.cookie;
+alert("after cookie "+afterCookie);
+
+var charSet=document.charecterSet;
+alert("charSet is "+charSet);
+
+}
+</script>
+</head>
+<body>
+
+</body>
+
+
+</html>

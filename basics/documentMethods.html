@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Mouse Over Mouse On</title>
+<script>
+function activeElementNow(){
+
+var x= document.activeElement.tagName;
+alert(" document.activeElement.tagName is "+x);
+}
+</script>
+</head>
+<body onclick="activeElementNow()">
+<input type="text" id="inputText">Hello</input>
+<input type="submit" id="submitButton" onclick="activeElementNow()">Submit Button</input>
+</body>
+
+</html>

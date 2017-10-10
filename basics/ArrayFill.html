@@ -1,0 +1,23 @@
+<html
+<head>
+<title>Fill Array</title>
+<script>
+window.onload = function (){
+
+var a = new Array();
+a=["1","8","9","12","10","7","54"];
+var beforeFill=document.getElementById("beforeFill");
+var afterFill=document.getElementById("afterFill");
+beforeFill.innerHTML=a;
+afterFill.innerHTML=a.fill("9");
+
+}
+
+</script>
+</head>
+<body">
+<p id="beforeFill">Before Fill</p>
+<p id ="afterFill">After Fill</p>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<html
+<head>
+<title>AddEventListener</title>
+<script>
+alert("hello ");
+	
+window.onload = function(){	
+var x=document.getElementById("inputId");
+
+if(x){
+x.addEventListener("click" , function(){
+alert("addEventListener after click");
+});
+}
+}
+</script>
+</head>
+<body>
+<input type="text" id="inputId"></input>
+
+</body>
+
+</html>

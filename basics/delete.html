@@ -1,0 +1,39 @@
+<html
+<head>
+<title>Delete</title>
+
+</head>
+<body>
+<script>
+var n="12";
+delete n;
+console.log("N after delete "+n);
+console.log("Delete on variable doesnt work dude..!")
+
+var arr=[12,3,43,4];
+delete arr[0];
+console.log("Delete array "+arr);
+
+var obj=new Object();
+obj.name="hello";
+obj.age=19;
+delete obj.name;
+console.log("Object after delete ",obj);
+if(obj.name===undefined)
+{
+console.log("Undefined");
+}
+if(obj.name){
+ console.log("Obj name is Not undefined");
+}
+else{
+ console.log("Obj name is  undefined");
+
+}
+
+</script>
+<p>Redirect...</p>
+
+</body>
+
+</html>
